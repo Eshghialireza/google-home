@@ -6,7 +6,6 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
 }
 .list-style-none{
     list-style: none;
@@ -171,10 +170,13 @@ left: 0rem;
     visibility: visible;
     
 }
+
 .web-shortcut ul{
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 text-align: center;
+padding: 0;
 }
 .web-shortcut ul li img {
     width: 25px;
